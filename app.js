@@ -4,15 +4,18 @@ let amigos =[];
 function agregarAmigo() {
     let nombreAmigo = document.getElementById('amigo').value;
     if (nombreAmigo === "") {
-        alert('Por favor, inserte un nombre');
+        alert('Por favor, ingrese un nombre para el amigo');
         return;
-    }else{
-        amigos.push(nombreAmigo);
-        limpiarCaja();
-        mostrarLista();
     }
-    
+    if (amigos.includes(nombreAmigo)) {
+        alert('Este amigo ya está en la lista');
+        return;
+    } 
+    amigos.push(nombreAmigo);
+    limpiarCaja();
+    mostrarLista();
 }
+
 
 function limpiarCaja(){
     document.getElementById('amigo').value = '';
