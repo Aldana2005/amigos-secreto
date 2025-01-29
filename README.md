@@ -33,4 +33,4 @@ Al hacer clic en el botón "Sortear Amigo", la aplicación seleccionará aleator
 3. Repita el proceso para añadir varios amigos.
 4. Cuando termine de ingresar los nombres, haga clic en el botón "Sortear Amigo" para seleccionar aleatoriamente a un amigo.
 
-¡Gracias por utilizar este sistema de Amigo Secreto! 🎉
+¡Gracias por utilizar este sistema de Amigo Secreto! 
